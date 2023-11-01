@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "DAZN"
 include(":app")
- 
+include(":videoplayer")
