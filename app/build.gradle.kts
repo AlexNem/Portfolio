@@ -1,3 +1,9 @@
+import core.addAndroLifeCycleDependencies
+import core.addAndroidComposeDependencies
+import core.addAndroidTestsDependencies
+import core.addLeakcanaryDependencies
+import core.addNetworkDependencies
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -52,7 +58,13 @@ android {
 
 dependencies {
 
-//    implementation(project(mapOf("path" to ":network")))
+    addAndroidComposeDependencies()
+    addAndroLifeCycleDependencies()
+//    addCoroutinesAndroidDependencies()
+    addNetworkDependencies()
+    addLeakcanaryDependencies()
+    addAndroidTestsDependencies()
+
 
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
