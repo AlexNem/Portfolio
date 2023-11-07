@@ -21,11 +21,11 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.test.dazn.R
-import com.test.dazn.event.domain.EventDomain
+import com.test.dazn.event.domain.EventData
 
 @Composable
 fun TodayEventScreen() {
-    val events = EventDomain.mockList
+    val events = EventData.mockList
     LazyColumn(
         verticalArrangement = Arrangement.spacedBy(8.dp),
         content = {
@@ -36,7 +36,7 @@ fun TodayEventScreen() {
 }
 
 @Composable
-fun EventItem(data: EventDomain) {
+fun EventItem(data: EventData) {
     val verticalHeight = 154.dp
     Row(
         verticalAlignment = Alignment.Top,

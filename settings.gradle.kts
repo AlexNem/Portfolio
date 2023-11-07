@@ -15,4 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "DAZN"
 include(":app")
-include(":videoplayer")
+include(":core")
+include(":network")
