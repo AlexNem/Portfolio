@@ -5,14 +5,19 @@ internal object Dependencies {
     const val coreKtx = "androidx.core:core-ktx:${Versions.coreKtxVersion}"
     //Compose
     const val composeMaterial = "androidx.compose.material:material:${Versions.materialVersion}"
+    const val composeMaterial3 = "androidx.compose.material3:material3:${Versions.material3Version}"
     const val composeActivity = "androidx.activity:activity-compose:${Versions.activityComposeVersion}"
     const val composeUi = "androidx.compose.ui:ui:${Versions.composeVersion}"
     const val composeNavigation = "androidx.navigation:navigation-compose:${Versions.composeNavigationVersion}"
     const val composePreviewUi = "androidx.compose.ui:ui-tooling-preview:${Versions.composeVersion}"
-    //Material
-    const val material = "com.google.android.material:material:${Versions.material}"
+    //Network
+    const val ktorCore = "io.ktor:ktor-client-core:${Versions.ktorVersion}"
+    const val ktorCio = "io.ktor:ktor-client-cio:${Versions.ktorVersion}"
+    const val ktorLogging = "io.ktor:ktor-client-logging:${Versions.ktorVersion}"
+    const val ktorNegotiation = "io.ktor:ktor-client-content-negotiation:${Versions.ktorVersion}"
+    const val kotlinSerialization = "org.jetbrains.kotlinx:kotlinx-serialization-json:${Versions.serializationVersion}"
     //DI
-    const val koin = "io.insert-koin:koin-androidx-compose:${Versions.koin_version}"
+    const val koin = "io.insert-koin:koin-androidx-compose:${Versions.koinVersion}"
     //MVI Kotlin
     const val mviKotlin = "com.arkivanov.mvikotlin:mvikotlin:${Versions.mviKotlin_version}"
     const val mviKotlinMain = "com.arkivanov.mvikotlin:mvikotlin-main:${Versions.mviKotlin_version}"

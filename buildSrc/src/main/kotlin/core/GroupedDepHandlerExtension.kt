@@ -34,21 +34,14 @@ fun DependencyHandler.addNetworkDependencies(configurationName:String = "impleme
     }
 }
 
-//fun DependencyHandler.addHiltDependencies() {
-//    add("implementation", Dependencies.hiltAndroid)
-//    add("implementation", Dependencies.hiltNavCompose)
-//    add("kapt", Dependencies.hiltCompiler)
-//}
+fun DependencyHandler.addKoinDependencies() {
+    add("implementation", Dependencies.koin)
+}
 
 
 fun DependencyHandler.addTimberDependencies(configurationName:String = "implementation"){
     add(configurationName, Dependencies.timber)
 }
-
-//fun DependencyHandler.addGsonDependencies(configurationName:String = "implementation"){
-//    add(configurationName, Dependencies.gson)
-//}
-
 
 fun DependencyHandler.addLeakcanaryDependencies(){
     add("debugImplementation", Dependencies.leakcanary)

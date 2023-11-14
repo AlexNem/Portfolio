@@ -2,12 +2,15 @@ package core
 
 internal object Versions {
     const val material = "1.9.0"
-    const val koin_version = "3.1.5"
+    const val material3Version = "1.1.2"
+    const val materialVersion = "1.3.1"
+    const val koinVersion = "3.1.5"
+    const val ktorVersion = "2.3.5"
+    const val serializationVersion = "1.6.0"
     const val mviKotlin_version = "2.0.4"
     const val composeVersion = "1.3.3"
     const val composeNavigationVersion = "2.5.3"
     const val coreKtxVersion = "1.8.0"
-    const val materialVersion = "1.3.1"
     const val activityComposeVersion = "1.6.1"
     const val lifecycleVersion = "2.5.1"
     const val runtimeComposeVersion = "2.6.0-beta01"

@@ -3,6 +3,7 @@ package core
 internal val androidComposeDependencies = listOf(
     Dependencies.coreKtx,
     Dependencies.composeMaterial,
+    Dependencies.composeMaterial3,
     Dependencies.composeActivity,
     Dependencies.composeUi,
     Dependencies.composePreviewUi,
@@ -21,4 +22,14 @@ internal val coroutinesAndroidDependencies = listOf(
     Dependencies.kotlinCoroutines,
 )
 
-internal val networkDependencies = listOf<String>()
+internal val coinDependencies = listOf(
+    Dependencies.koin
+)
+
+internal val networkDependencies = listOf(
+    Dependencies.ktorCore,
+    Dependencies.ktorCio,
+    Dependencies.ktorLogging,
+    Dependencies.ktorNegotiation,
+    Dependencies.kotlinSerialization
+)
