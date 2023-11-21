@@ -1,4 +1,6 @@
 import core.AppConfig
+import core.addAndroidTestsDependencies
+import core.addKoinDependencies
 import core.addNetworkDependencies
 
 plugins {
@@ -19,7 +21,7 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "17"
+        jvmTarget = AppConfig.jvmTarget
     }
     buildTypes {
         release {
@@ -36,4 +38,6 @@ dependencies {
     implementation(project(":app"))
 
     addNetworkDependencies()
+    addAndroidTestsDependencies()
+    addKoinDependencies()
 }
