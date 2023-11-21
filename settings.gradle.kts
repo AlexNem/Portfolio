@@ -15,5 +15,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "DAZN"
 include(":app")
+include(":domain")
 include(":core")
 include(":network")

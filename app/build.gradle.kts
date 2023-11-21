@@ -55,10 +55,13 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
-    dynamicFeatures += setOf(":core", ":network")
 }
 
 dependencies {
+
+    implementation(project(":domain"))
+    implementation(project(":core"))
+    implementation(project(":network"))
 
     addAndroidComposeDependencies()
     addAndroLifeCycleDependencies()
