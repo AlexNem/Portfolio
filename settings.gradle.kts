@@ -13,7 +13,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "DAZN"
+rootProject.name = "Portfolio"
 include(":app")
 include(":domain")
 include(":core")

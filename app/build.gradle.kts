@@ -12,7 +12,7 @@ plugins {
 }
 
 android {
-    namespace = "com.test.dazn"
+    namespace = "com.alexnem.portfolio"
     compileSdk = 34
 
     defaultConfig {

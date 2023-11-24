@@ -3,7 +3,7 @@ package core
 import org.gradle.api.JavaVersion
 
 object AppConfig {
-    const val applicationId = "com.test.dazn"
+    const val applicationId = "com.alexnem.portfolio"
     const val testRunner = "androidx.test.runner.AndroidJUnitRunner"
     const val minSdkVersion = 24
     const val compileSdkVersion = 34

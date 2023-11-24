@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DAZN</string>
+    <string name="app_name">Portfolio</string>
     <string name="title_core">Core</string>
     <string name="title_network">Module Title</string>
 </resources>
